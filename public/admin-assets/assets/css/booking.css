@@ -1,0 +1,60 @@
+.card {
+    /* border: #f9af14 5px solid; */
+    border: #1BD1EA 1px solid;
+    border-radius: 15px;
+    overflow: hidden;
+        /*height: 100%;*/
+}
+
+.addon-list hr:last-child{
+    display: none;
+}
+
+.addon-list h6, .card-body h6{
+    color: #1D3466;
+    margin: 0;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.guest-hours-list .hours{
+        line-height: normal;
+        padding: 10px 14px;
+        border: 1px solid #eee;
+        background: #eee;
+        display: block;
+        border-radius: 50rem;
+}
+
+.guest-hours-list .small-border{
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guest-hours-list .small-border hr{
+    width: 200px;
+    margin-left: 0;
+    border-top: 1.5px dashed #e3e2e2;
+}
+.card-header{
+    background: #1bd1ea;
+    color: #fff;
+}
+span.text-muted{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 1px solid #f1f3f1;
+}
